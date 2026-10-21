@@ -1,0 +1,27 @@
+# Built application files
+*.apk
+*.aab
+*.ap_
+*.dex
+
+# Files for the ART/Dalvik VM
+*.class
+
+# Java/ Kotlin build files
+bin/
+gen/
+out/
+.gradle/
+build/
+
+# Local configuration files
+local.properties
+.idea/
+*.iml
+.DS_Store
+/captures
+.externalNativeBuild
+.cxx/
+
+# Gradle wrapper jar 需要提交，保证 clone 后可直接构建
+!gradle/wrapper/gradle-wrapper.jar

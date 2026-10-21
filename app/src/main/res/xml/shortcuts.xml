@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+    <shortcut
+        android:shortcutId="add_alarm"
+        android:enabled="true"
+        android:icon="@drawable/ic_add"
+        android:shortcutShortLabel="@string/add_alarm">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="com.alarmclock.app"
+            android:targetClass="com.alarmclock.app.ui.AlarmEditActivity" />
+    </shortcut>
+</shortcuts>
